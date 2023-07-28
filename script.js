@@ -9,22 +9,11 @@ Mode_change.onclick = function()
 {
     document.body.classList.toggle("light");
 }
-
-
-
-
-
-
-
-
 Array.from(buttons).forEach((button)=>{
     button.addEventListener("click",(e)=>{
-        console.log(e.target.value);
-        
-        console.log(string);
         if((e.target.value=='C'))
         {
-            console.log("Not allows");
+            
             string="";
             results="";
             result.innerText=results;
@@ -53,7 +42,6 @@ Array.from(buttons).forEach((button)=>{
             opration.innerText=string
         }
         }
-        
-        
+    
     })
 })
